@@ -8,10 +8,12 @@ import { Link } from 'react-router-dom';
 function Header() {
     return(
         <Container>
-           <header style={headerStyle}>
+            <React.Fragment>
+            <header style={headerStyle} >
                <h2>Hangman</h2>
                 <Link style={linkStyle} to="/">Home</Link> | <Link style={linkStyle} to="/about">About</Link>
             </header>
+            </React.Fragment>
         </Container>
     )
 }

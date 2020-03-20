@@ -86,8 +86,11 @@ class Hangman extends Component {
 //gamestat is a function called to generate the buttons of keypad
         return (
             <Container>
+                
                 <Row>
+                
                     <Col style={colomStyle} >
+                    <React.Fragment>
                         <div>
                             <img src={this.props.images[this.state.mistake]} alt="" style={{padding: '20px'}}/>
                         </div> 
@@ -99,8 +102,10 @@ class Hangman extends Component {
                             </p>
                             <p >{gameStat}</p>
                         <button className='btn btn-light' style={buttonStyle} onClick={this.resetButton}>Reset</button>
+                        </React.Fragment>
                     </Col>
                 </Row>
+               
             </Container>
         )
     }
@@ -109,7 +114,7 @@ class Hangman extends Component {
 const colomStyle = {
     border: '1px solid #81a2b8',
     borderRadius: '15px',
-    margin: '30px',
+    marginTop: '30px',
     textAlign: 'center'
 }
 const buttonStyle = {

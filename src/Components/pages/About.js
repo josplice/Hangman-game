@@ -10,7 +10,7 @@ function About() {
     return (
         <Container >
             <React.Fragment>
-                <div style={aboutStyle} className="Hangman container">
+                <div style={aboutStyle} >
                     <h3>About</h3>
                     <p>This is version of the classic letter guessing game called Hangman. 
                     You are shown a set of blank letters that match a word or phrase and 
