@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import About from './Components/pages/About';
+import Hangman from './Components/Hangman';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header.js';
+  
+//creating 2 links using the router and route functions from react-router-dom
+//calling the hangman function inside the react fragment
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Route exact path="/" render={props => (
+          <React.Fragment>
+            <Hangman />
+          </React.Fragment>
+          )} />
+          <Route path="/about" component={About} />
+      </div>
+    </Router>
   );
 }
 
