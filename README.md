@@ -3,15 +3,22 @@ Below is some information on how to perform common tasks on the game
 There is no updates to the game yet
 
 ## Table of contents
-### 1.Sending Feedback
-### 2.folder structure
+### 1.About and Feedback
+### 2.Folder structure
 ### 3.Available scripts
 ### 4.Reactrap and bootstrap
 ### 5.Deployment
 ### 6.Troubleshooting
 
 
-## Sending feedback
+## About & Feedback
+This is version of the classic letter guessing game called Hangman. 
+You are shown a set of blank letters that match a word or phrase and you have to guess what these letters are to reveal the hidden word. 
+You guess by picking letters from those displayed on the sides. ... 
+This is why the game is called 'Hangman'.
+
+To play the Game, you need to select letters of a hidden word. In this case an Animal. Tip is to start with the vowels.
+You are allowed 7 wrong guesses before you loose. Off course if you get the word right before the seven guesses are up, You Win!
 please send feedback to splicemail@gmail.com
 
 ## Folder Structure
