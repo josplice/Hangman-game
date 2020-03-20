@@ -2,13 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below is some information on how to perform common tasks on the game
 There is no updates to the game yet
 
-Table of contents
-1.Sending Feedback
-2.folder structure
-3.Available scripts
-4.Reactrap and bootstrap
-5.Deployment
-6.Troubleshooting
+## Table of contents
+### 1.Sending Feedback
+### 2.folder structure
+### 3.Available scripts
+### 4.Reactrap and bootstrap
+### 5.Deployment
+### 6.Troubleshooting
 
 
 ## Sending feedback
